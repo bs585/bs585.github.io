@@ -1,0 +1,75 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.topnav a.active {
+background-color: dodgerblue;
+color: white;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+
+}
+footer{
+  margin-top: auto;
+}
+footer {
+background: dodgerblue;
+color: #fff;
+padding: 1rem;
+}
+
+.flex-container > div{
+display: flex;
+background-color: dodgerblue;
+margin: 0px;
+padding: 0px;
+font-size: 30px;
+}
+
+body{
+background-color: lightgray;
+}
+h1{
+color: brown;
+font-size: 35px;       
+  }
+  h2{
+      color: brown;
+  }
+  
+footer {
+display: flex;
+justify-content: space-around;
+}
+
+.footer__headline {
+font-weight: bold;
+font-family: 'Helvetica';
+}
+
+.footer__list {
+font-family: 'Helvetica';
+list-style: none;
+padding: 0;
+margin: 0;
+}
